@@ -1,7 +1,7 @@
 # Import pandas as pd
+import statistics
 import pandas as pd
 import matplotlib.pyplot as plt
-import statistics
 
 # Import the AndroSensor.csv DATA: Sensors
 DATA = pd.read_csv('AndroSensor.csv', sep=',')
