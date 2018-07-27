@@ -3,11 +3,10 @@ python:
   - "3.6"
 # install
 install:
-  #- pip install pandas
-  #- pip install matplotlib
-  #- pip install statistics
+  - pip install pandas
+  - pip install matplotlib
+  - pip install statistics
   - pip install pycodestyle
 # command to run tests
 script:
-  - pycodestyle bill_calculator.py
-  - python bill_calculator.py < commands.txt
+  - pycodestyle Sleep_Tracker.py
